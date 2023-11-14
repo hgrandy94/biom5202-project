@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn import cluster
-from skimage import morphological_chan_vese
+from skimage.segmentation import morphological_chan_vese
 
 def generate_circular_seed_masks(img, center, radius):
     """
