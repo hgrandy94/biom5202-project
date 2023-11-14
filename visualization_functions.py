@@ -16,6 +16,5 @@ def single_plot(image, colors="Greys_r", plot_title="Resulting Image", xlabel="x
     if save_plot == True:
         plt.savefig(output_dir)
 
-
 def multi_axis_plot(image):
     pass
