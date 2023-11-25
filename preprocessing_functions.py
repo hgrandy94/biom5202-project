@@ -4,6 +4,31 @@ import matplotlib.pyplot as plt
 from scipy import ndimage
 import skimage
 
+# Define functions to perform general preprocessing steps
+# NOTE: Approach and Default values obtained form yashbhalgat MRNet-Competition on GitHub
+def add_padding(img, input_dim=224):
+    # Calculate the amount of padding needed for the view 
+    pad = int((img.shape[2] - input_dim)/2)
+    # Apply padding to the view
+    padded_img = img[:,pad:-pad,pad:-pad]
+    return padded_img
+
+def normalize_img(img, max_pixel_val=255):
+    # Normalize intensity values so they fall within the range [0, max_pixel_val]
+    normalized_img = (img-np.min(img))/(np.max(img)-np.min(img))*max_pixel_val
+    return normalized_img
+
+def standardize_img(img, mean=58.09, std=49.73):
+    # Standardize pixel values by subracting the mean and dividing by std dev
+    standardized_img = (img - mean) / std
+    return standardized_img
+
+def create_three_channel_img(img):
+    # Create a 3-channel image from the single-channel image
+    # This is done to match the input format expected by the model
+    three_channel_img = np.stack((img,)*3, axis=1)
+    return three_channel_img
+
 # Define function to compute mean squared error
 # this function can compute MSE for any two given image arrays
 def compute_mse(img1, img2):
