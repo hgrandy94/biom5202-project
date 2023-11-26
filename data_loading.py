@@ -2,37 +2,32 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
+from datetime import datetime
+import os
 from pipeline import pipeline
 
-# List of file paths to the .npy files
-file_paths = ["C:\\Users\\heath\\OneDrive - University of Ottawa\\Courses\\BIOM5202\\MRNet-v1.0\\MRNet-v1.0\\train\\sagittal\\0011.npy"]\
+# Input directory pointing to the .npy files
+input_dir = "C:\\Users\\heath\\OneDrive - University of Ottawa\\Courses\\BIOM5202\\MRNet-v1.0\\MRNet-v1.0"
 
 # Set output directory
-output_images = "output_images"
+output_dir = "C:\\Users\\heath\\OneDrive - University of Ottawa\\Courses\\BIOM5202\\Project\\output_images"
 
-# Iterate over the .npy files and plot their contents
-for file_path in file_paths:
-    # Load data from the .npy file
-    data = np.load(file_path)
-    print(np.shape(data))
+# Set dynamic run directory
+# Get the current date and time
+now = datetime.now()
+# Format the date and time as a string
+timestamp_str = now.strftime("%Y%m%d_%H%M%S")
+# Use an f-string to create the run directory with the timestamp
+run_dir = f"run_{timestamp_str}"
+run_dir = os.path.join(output_dir, run_dir)
 
-    # Create a visualization for each slice (assuming 2D slices)
-    for slice_index in range(data.shape[0]):
-        # Display the slice using Matplotlib
-        plt.figure()
-        plt.imshow(data[slice_index], cmap='gray')
-        plt.title(f'Slice {slice_index + 1} from {file_path}')
+# CREATE DIRECTORY
+# Check if the directory exists
+if not os.path.exists(run_dir):
+    # Create the directory if it doesn't exist
+    os.makedirs(run_dir)
+    print(f"Directory '{run_dir}' created.")
+else:
+    print(f"Directory '{run_dir}' already exists.")
 
-        # Optionally, display or save the plot
-        #plt.show()  # Display the plot
-        # Optionally, save the plot as an image file
-        # plt.savefig(f'slice_{slice_index + 1}_{file_path}.png')
-
-        # Close the plot to free up memory
-        plt.close()
-
-# Let's setup a test
-output_img = pipeline(data[27])
-# Save resulting image
-cv2.imwrite(f"{output_images}/test_image.png", output_img)
-
+# Iterate through all files recursively in the input directory
