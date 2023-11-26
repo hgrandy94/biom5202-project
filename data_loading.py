@@ -48,7 +48,7 @@ for root, dirs, files in os.walk(input_dir):
         if file.endswith('.csv'):
             output_file_path = os.path.join(output_subdirectory, file)
             shutil.copy(file_path, output_file_path)
-            print(f"Copied CSV: {file_path} to {output_file_path}")
+            #print(f"Copied CSV: {file_path} to {output_file_path}")
         elif file.endswith('.npy'):
             # If the file is in .npy format, load the data and process each slice
             image_data = np.load(file_path)
