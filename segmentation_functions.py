@@ -60,7 +60,7 @@ def kmeans_segmentation(img, k=5):
     image_2d = img.reshape(h*w,1)
 
     # Perform k-means clustering using sklearn library
-    kmeans_cluster = cluster.KMeans(n_clusters=k)
+    kmeans_cluster = cluster.KMeans(n_clusters=k, n_init=10)
     kmeans_cluster.fit(image_2d)
     cluster_centers = kmeans_cluster.cluster_centers_
     cluster_labels = kmeans_cluster.labels_
