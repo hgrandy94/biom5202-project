@@ -58,7 +58,7 @@ for root, dirs, files in os.walk(input_dir):
             output_slices = []
             for i, image_slice in enumerate(image_data):
                 output_file_path = os.path.join(output_subdirectory, f"{file}")
-                output_slice = pipeline(image_slice, output_file_path)
+                output_slice = pipeline(image_slice)
                 output_slices.append(output_slice)
                 #print(f"Processed and saved slice {i} from .npy: {file_path} to {output_file_path}")
             
