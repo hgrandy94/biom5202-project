@@ -7,10 +7,10 @@ import shutil
 from pipeline import pipeline
 
 # Input directory pointing to the .npy files
-input_dir = "C:\\Users\\heath\\OneDrive - University of Ottawa\\Courses\\BIOM5202\\MRNet-v1.0\\MRNet-v1.0"
+input_dir = "C:\\Users\\heath\\projects\\uOttawa\\classes\\MRNet-v1.0"
 
 # Set output directory
-output_dir = "C:\\Users\\heath\\OneDrive - University of Ottawa\\Courses\\BIOM5202\\Project\\output_images"
+output_dir = "C:\\Users\\heath\\projects\\uOttawa\\classes\\mrnet-output"
 
 # Set dynamic run directory
 # Get the current date and time
@@ -54,12 +54,21 @@ for root, dirs, files in os.walk(input_dir):
             image_data = np.load(file_path)
             
             # Iterate through each slice
+            # Initialize list to track output slices
+            output_slices = []
             for i, image_slice in enumerate(image_data):
                 output_file_path = os.path.join(output_subdirectory, f"{file}")
-                pipeline(image_slice, output_file_path)
+                output_slice = pipeline(image_slice, output_file_path)
+                output_slices.append(output_slice)
                 #print(f"Processed and saved slice {i} from .npy: {file_path} to {output_file_path}")
+            
+            # Save in npy format
+            output_slices_array = np.array(output_slices)
+            np.save(output_file_path, output_slices_array)
+
         else:
             # Handle other file types (catch-all case)
             print(f"Ignored file: {file_path} (unsupported file type)")
+
 print("Iterating done! Images successfully saved.")
 
