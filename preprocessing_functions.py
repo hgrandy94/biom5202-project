@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import ndimage
-from skimage import feature
+from skimage import feature, exposure
 
 # Define functions to perform general preprocessing steps
 # NOTE: Approach and Default values obtained form yashbhalgat MRNet-Competition on GitHub
@@ -109,3 +109,8 @@ def canny_edge(img, sigma=3):
     edge_canny = feature.canny(img.astype('float32'), sigma=sigma) # this outputs a boolean array
     edge_canny = edge_canny.astype(np.uint8) * 255 # convert to uint8
     return edge_canny
+
+def histogram_equalization(img):
+    hist_eq = exposure.equalize_hist(img)
+    hist_eq = hist_eq.astype(np.uint8)
+    return hist_eq
