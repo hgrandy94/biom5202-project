@@ -18,5 +18,7 @@ def pipeline(img):
     # img = apply_median_filter(img, kernel_size=3)
     # img = canny_edge(img, sigma=3)
     # Pipeline run 7
-    img = histogram_equalization(img)
+    # img = histogram_equalization(img)
+    # Pipelin run 8
+
     return img
