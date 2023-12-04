@@ -11,17 +11,15 @@ def pipeline(img):
     # Pipeline run 3
     # img = apply_median_filter(img, kernel_size=3)
     # Pipeline run 4
-    # img = apply_median_filter(img, kernel_size=9)
+    #img = apply_median_filter(img, kernel_size=9)
     # Pipeline run 5
-    # img = canny_edge(img, sigma=3)
+    #img = canny_edge(img, sigma=3)
     #Pipeline run 6
-    # img = apply_median_filter(img, kernel_size=3)
-    # img = canny_edge(img, sigma=3)
+    img = apply_median_filter(img, kernel_size=3)
+    img = canny_edge(img, sigma=3)
     # Pipeline run 7
     # alt Canny edge detection
     # Pipeline run 8
     #img = histogram_equalization(img)
-    # Pipeline run 9
-    img = kmeans_segmentation(img, k=3)
 
     return img

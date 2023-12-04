@@ -2,6 +2,8 @@
 output_images/
 output_plots/
 input_images/
+segmentation_data/train
+segmentation_data/valid
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

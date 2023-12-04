@@ -1,0 +1,423 @@
+filepath,slice,x,y,label
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0095.npy,17,141,124,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0038.npy,23,113,152,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0062.npy,11,120,162,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0495.npy,11,189,119,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0047.npy,13,142,124,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0029.npy,15,132,115,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0050.npy,11,130,176,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0050.npy,9,66,88,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0006.npy,15,110,122,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0007.npy,12,136,130,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0079.npy,8,121,194,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0093.npy,18,133,133,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0096.npy,18,140,119,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0085.npy,17,135,131,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0492.npy,5,19,219,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0058.npy,10,112,160,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0027.npy,10,140,131,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0089.npy,12,126,146,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0600.npy,8,47,207,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0022.npy,16,107,151,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0057.npy,21,110,173,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0600.npy,8,229,212,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0069.npy,11,134,138,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0080.npy,20,143,145,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0080.npy,20,133,160,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0032.npy,16,140,139,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0096.npy,18,125,150,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0022.npy,16,125,130,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0092.npy,16,114,161,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0026.npy,20,138,127,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0054.npy,21,133,154,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0076.npy,11,122,102,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0067.npy,22,126,153,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0093.npy,17,127,141,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0081.npy,12,111,145,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0051.npy,17,116,146,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0087.npy,17,136,144,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0983.npy,8,117,136,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0032.npy,16,150,118,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0028.npy,16,132,114,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0682.npy,27,167,116,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0029.npy,15,143,106,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0052.npy,19,138,122,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0054.npy,20,114,165,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0028.npy,14,119,137,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0004.npy,14,138,115,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0050.npy,11,58,64,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0026.npy,19,134,133,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1116.npy,9,127,214,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0048.npy,14,118,165,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0063.npy,14,126,131,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0081.npy,13,114,148,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0061.npy,16,126,160,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0041.npy,16,130,138,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0097.npy,16,130,160,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0008.npy,17,137,149,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0060.npy,8,148,132,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0057.npy,1,171,161,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0032.npy,16,133,148,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1116.npy,9,14,194,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0094.npy,22,116,145,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0085.npy,16,132,128,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0870.npy,5,7,238,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0394.npy,12,132,92,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0018.npy,11,111,139,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0683.npy,10,100,47,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0050.npy,9,18,176,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0012.npy,17,127,134,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0044.npy,13,127,153,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0030.npy,17,131,111,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0067.npy,22,138,130,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0394.npy,12,101,66,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0228.npy,9,172,213,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0048.npy,14,132,143,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0079.npy,15,241,174,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0320.npy,6,105,92,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0041.npy,16,142,120,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0037.npy,14,108,162,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0095.npy,17,137,129,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0049.npy,16,103,126,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0061.npy,18,135,133,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0320.npy,23,71,201,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0206.npy,11,194,32,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0043.npy,23,111,130,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0011.npy,20,127,130,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0010.npy,18,116,132,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0026.npy,20,133,132,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0320.npy,15,134,169,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0420.npy,7,29,133,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0023.npy,16,139,135,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1037.npy,7,124,69,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0139.npy,13,149,178,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0041.npy,16,144,119,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0004.npy,13,148,122,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0073.npy,13,125,128,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0005.npy,17,132,124,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0259.npy,24,138,195,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0057.npy,1,111,101,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0005.npy,16,124,145,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0034.npy,20,123,118,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0056.npy,12,132,130,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0320.npy,10,116,219,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0026.npy,18,145,127,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0395.npy,9,123,182,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0065.npy,24,111,152,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0028.npy,16,121,128,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0320.npy,10,65,64,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0097.npy,16,134,152,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0058.npy,10,117,151,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0057.npy,21,104,178,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0995.npy,15,24,211,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0100.npy,12,123,121,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0079.npy,14,114,156,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0035.npy,15,145,152,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0999.npy,11,150,194,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0085.npy,16,127,135,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0098.npy,13,141,112,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0094.npy,21,105,170,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0012.npy,17,134,124,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0259.npy,17,27,105,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0683.npy,10,166,133,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0037.npy,14,103,163,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0329.npy,0,214,120,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0495.npy,11,105,100,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0016.npy,21,129,146,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0001.npy,12,116,126,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0281.npy,8,20,147,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0092.npy,15,110,168,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0375.npy,7,134,120,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0329.npy,0,196,177,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0054.npy,20,123,154,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0034.npy,20,113,130,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0079.npy,30,62,82,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0087.npy,16,140,143,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0026.npy,18,137,136,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0052.npy,19,134,132,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0091.npy,17,165,116,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0189.npy,10,14,27,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0100.npy,12,122,124,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0048.npy,21,244,137,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0055.npy,21,136,154,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0088.npy,14,139,96,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0074.npy,21,123,129,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0325.npy,7,2,148,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0094.npy,22,113,151,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0059.npy,16,133,144,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0038.npy,23,131,125,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0492.npy,5,115,129,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0057.npy,7,129,211,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0060.npy,8,144,135,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0047.npy,13,132,147,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0040.npy,11,129,131,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0329.npy,0,179,58,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0061.npy,16,122,166,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0016.npy,21,131,143,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0044.npy,13,123,159,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0098.npy,13,131,135,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0035.npy,15,138,142,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0086.npy,17,135,163,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0062.npy,11,127,151,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0080.npy,21,132,161,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0096.npy,19,129,141,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0019.npy,14,128,134,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0057.npy,21,131,153,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0934.npy,23,64,223,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0100.npy,12,127,110,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0056.npy,12,115,151,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0238.npy,8,194,179,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0395.npy,9,139,199,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0069.npy,10,125,153,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0086.npy,8,36,200,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0048.npy,21,227,193,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0076.npy,11,121,105,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0080.npy,20,153,131,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0067.npy,22,125,157,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0054.npy,20,116,162,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0038.npy,23,111,153,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0139.npy,13,98,89,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0999.npy,11,219,127,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0325.npy,7,140,107,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0026.npy,20,146,115,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0050.npy,18,116,122,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0259.npy,17,231,155,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0375.npy,0,52,203,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0086.npy,17,130,171,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0026.npy,19,137,130,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0015.npy,15,123,158,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0015.npy,15,128,152,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0005.npy,17,122,136,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0063.npy,14,137,110,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0002.npy,17,123,154,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0024.npy,18,146,154,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0420.npy,7,125,108,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0238.npy,8,121,93,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0189.npy,10,113,221,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0086.npy,0,188,49,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0028.npy,14,124,129,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0005.npy,17,124,133,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0051.npy,17,125,139,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0076.npy,11,120,107,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0093.npy,17,125,143,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0079.npy,14,122,149,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0086.npy,17,139,157,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0087.npy,16,157,130,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0095.npy,17,118,152,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1116.npy,9,112,158,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1037.npy,7,144,204,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0051.npy,17,122,141,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0023.npy,16,152,120,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0000.npy,20,125,135,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0085.npy,17,143,120,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1038.npy,9,53,225,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0514.npy,7,111,197,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0600.npy,8,14,93,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0061.npy,16,131,151,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0048.npy,13,116,168,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0069.npy,11,123,157,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0096.npy,18,130,144,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0086.npy,0,189,150,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1116.npy,9,152,60,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0019.npy,14,120,143,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0281.npy,8,60,232,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0032.npy,15,140,154,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1007.npy,0,82,132,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0032.npy,16,146,128,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0048.npy,13,138,135,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0073.npy,13,129,124,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0076.npy,11,122,101,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0139.npy,13,122,67,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0012.npy,17,118,145,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0079.npy,15,226,64,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0238.npy,8,56,36,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0394.npy,10,101,64,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0025.npy,11,123,140,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0098.npy,13,139,118,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0088.npy,14,121,118,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0600.npy,8,61,200,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0870.npy,5,104,104,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0342.npy,0,104,31,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0325.npy,7,116,87,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0000.npy,20,119,140,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0057.npy,21,126,157,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0062.npy,12,118,162,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0061.npy,18,114,164,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0024.npy,18,154,132,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0054.npy,20,109,169,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0023.npy,16,156,119,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0228.npy,9,235,113,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0084.npy,16,114,154,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0006.npy,15,118,111,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0080.npy,19,137,158,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0038.npy,23,128,128,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0375.npy,0,228,134,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0375.npy,7,111,120,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0043.npy,23,117,123,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0087.npy,18,150,127,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0044.npy,13,125,158,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0044.npy,13,130,148,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0028.npy,14,125,126,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0037.npy,14,124,141,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0079.npy,11,133,178,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0342.npy,0,73,162,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0079.npy,11,149,106,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0004.npy,14,135,121,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0054.npy,21,120,158,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0024.npy,17,153,133,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0052.npy,19,129,137,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0189.npy,11,197,176,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0139.npy,13,214,32,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0058.npy,10,119,149,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0320.npy,15,106,89,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0062.npy,12,104,177,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0025.npy,11,126,138,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0009.npy,14,103,150,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0833.npy,20,28,180,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0043.npy,23,113,127,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0056.npy,12,135,125,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0146.npy,11,114,195,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0073.npy,13,123,130,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0094.npy,21,130,139,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0189.npy,11,181,34,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0069.npy,10,119,159,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0091.npy,17,139,135,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0325.npy,7,124,50,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0013.npy,16,138,142,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0095.npy,17,135,132,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0032.npy,15,137,145,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0051.npy,17,107,151,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0061.npy,16,118,169,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0514.npy,7,133,169,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0347.npy,15,225,159,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0052.npy,19,138,127,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0056.npy,12,112,153,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1037.npy,7,119,204,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0320.npy,10,68,14,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0079.npy,14,131,141,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0086.npy,8,37,223,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0094.npy,21,111,164,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0052.npy,20,129,140,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0059.npy,16,114,153,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0094.npy,21,119,153,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0050.npy,9,206,219,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0281.npy,8,103,138,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0008.npy,17,145,137,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0475.npy,17,103,97,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0023.npy,17,132,133,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0092.npy,15,108,170,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0983.npy,8,14,193,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0024.npy,17,158,123,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0034.npy,21,120,124,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0031.npy,15,127,155,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0009.npy,14,97,158,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0079.npy,14,128,144,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0475.npy,17,19,227,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0011.npy,20,124,133,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0866.npy,12,204,193,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0087.npy,17,142,141,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0059.npy,15,131,142,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0069.npy,10,121,157,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0024.npy,18,149,144,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0016.npy,22,137,130,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0037.npy,15,108,161,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0016.npy,22,136,134,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0054.npy,20,126,151,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0050.npy,18,104,137,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0055.npy,21,139,149,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0347.npy,15,29,209,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0048.npy,12,117,173,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0028.npy,15,130,114,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0094.npy,21,134,132,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1037.npy,7,228,103,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0492.npy,5,115,208,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0006.npy,14,131,94,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0081.npy,13,120,131,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0085.npy,17,132,135,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0011.npy,20,131,121,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0011.npy,20,117,141,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0023.npy,16,134,140,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0028.npy,17,120,134,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0016.npy,22,133,138,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0329.npy,12,25,223,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0600.npy,8,18,197,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0010.npy,18,119,130,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0012.npy,17,120,143,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0146.npy,17,50,220,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0281.npy,8,116,126,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0071.npy,10,136,134,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0089.npy,12,136,126,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0011.npy,20,131,123,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0001.npy,12,132,116,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0001.npy,11,129,123,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0087.npy,17,159,126,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0085.npy,16,124,138,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0995.npy,15,105,81,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0206.npy,11,15,170,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0048.npy,8,221,145,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0514.npy,7,110,173,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0057.npy,22,124,159,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0037.npy,14,113,156,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0024.npy,18,147,148,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0084.npy,16,119,149,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0074.npy,21,109,147,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0325.npy,7,131,109,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0018.npy,9,113,137,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0037.npy,14,114,158,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0037.npy,15,117,151,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0037.npy,15,129,135,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0069.npy,11,120,160,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0320.npy,10,146,31,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0048.npy,13,112,106,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0086.npy,8,112,132,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0055.npy,22,114,177,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1037.npy,7,144,98,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0034.npy,21,122,122,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0090.npy,14,138,115,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0329.npy,7,132,137,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0039.npy,16,128,148,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0514.npy,7,38,212,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0020.npy,14,123,151,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0080.npy,19,146,149,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0600.npy,8,105,116,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0420.npy,7,99,32,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0048.npy,21,139,201,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0070.npy,12,129,112,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0394.npy,10,97,89,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0046.npy,9,131,139,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0090.npy,14,136,125,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/1128.npy,0,44,122,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0023.npy,17,147,113,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0035.npy,15,137,160,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0281.npy,8,178,72,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0005.npy,16,131,133,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0514.npy,7,29,180,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0074.npy,21,127,123,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0019.npy,15,126,137,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0058.npy,10,115,154,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0514.npy,7,108,97,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0084.npy,16,121,146,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0006.npy,14,110,126,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0347.npy,15,121,105,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0271.npy,6,240,50,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0021.npy,13,110,142,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0005.npy,17,136,118,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0080.npy,20,127,169,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0095.npy,17,130,138,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0050.npy,18,109,132,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0008.npy,17,132,155,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0007.npy,12,128,140,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0061.npy,16,124,163,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0024.npy,18,154,143,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0059.npy,16,107,157,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0063.npy,14,120,143,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0069.npy,10,117,160,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0085.npy,16,122,142,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0000.npy,21,112,149,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0051.npy,17,113,148,1
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0019.npy,15,118,145,1
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0079.npy,15,121,173,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0139.npy,13,5,214,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0079.npy,8,239,72,0
+C:\Users\heath\projects\uOttawa\classes\MRNet-v1.0/train/sagittal/0079.npy,15,70,22,0
+C:/Users/heath/OneDrive - University of Ottawa/Courses/BIOM5202/MRNet-v1.0/MRNet-v1.0/train/sagittal\0016.npy,22,143,126,1
