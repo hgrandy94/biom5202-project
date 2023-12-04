@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 import shutil
 from pipeline import pipeline
+import time
 
 # Input directory pointing to the .npy files
 input_dir = "C:\\Users\\heath\\projects\\uOttawa\\classes\\MRNet-v1.0"
@@ -29,6 +30,9 @@ if not os.path.exists(run_dir):
     print(f"Directory '{run_dir}' created.")
 else:
     print(f"Directory '{run_dir}' already exists.")
+
+# KEEP TRACK OF TIME STARTING FROM THIS POINT
+start_time = time.time()
 
 # Iterate through all files recursively in the input directory
 # If the file is .csv, copy into output directory
@@ -71,4 +75,11 @@ for root, dirs, files in os.walk(input_dir):
             print(f"Ignored file: {file_path} (unsupported file type)")
 
 print("Iterating done! Images successfully saved.")
+# Record the end time
+end_time = time.time()
 
+# Calculate the elapsed time
+elapsed_time = end_time - start_time
+
+# Print the elapsed time
+print(f"Script execution time: {elapsed_time} seconds")
