@@ -5,49 +5,6 @@ from scipy import ndimage
 from skimage import feature, exposure, img_as_ubyte
 
 # Define functions to perform general preprocessing steps
-# NOTE: Approach and Default values obtained form yashbhalgat MRNet-Competition on GitHub
-def add_padding(img, input_dim=224):
-    # Calculate the amount of padding needed for the view 
-    pad = int((img.shape[2] - input_dim)/2)
-    # Apply padding to the view
-    padded_img = img[:,pad:-pad,pad:-pad]
-    return padded_img
-
-def normalize_img(img, max_pixel_val=255):
-    # Normalize intensity values so they fall within the range [0, max_pixel_val]
-    normalized_img = (img-np.min(img))/(np.max(img)-np.min(img))*max_pixel_val
-    return normalized_img
-
-def standardize_img(img, mean=58.09, std=49.73):
-    # Standardize pixel values by subracting the mean and dividing by std dev
-    standardized_img = (img - mean) / std
-    return standardized_img
-
-def create_three_channel_img(img):
-    # Create a 3-channel image from the single-channel image
-    # This is done to match the input format expected by the model
-    three_channel_img = np.stack((img,)*3, axis=1)
-    return three_channel_img
-
-# Define function to compute mean squared error
-# this function can compute MSE for any two given image arrays
-def compute_mse(img1, img2):
-    """
-    This function computes the mean squared error of two arrays
-
-    Parameters
-    ------------
-    img1, img2: 2D numpy array
-        Arrays for which the mse will be computed
-    
-    Output
-    ------------
-    mse: float
-        The mean squared error of the two arrays
-    """
-    mse = np.square(img1 - img2).mean()
-    return mse
-
 # Specify linear Gaussian filter 
 def apply_gaussian_filter(img, sigma, kernel_size):
     """
@@ -57,16 +14,18 @@ def apply_gaussian_filter(img, sigma, kernel_size):
     Parameters
     ------------
     img: 2D numpy array
-        Array which the Gaussian filter will be applied to (the image array
-        with noise applied).
+        Array which the Gaussian filter will be applied to.
+
     sigma: integer
         Sigma (standard deviation) for the Gaussian distribution used for filtering.
+
     kernel_size: integer
         Desired kernel/mask size for the Gaussian filter.        
     
     Output
     ------------
-    N/A - All computations done within function
+    filtered_img : 2D numpy array
+        Image array after Gaussian filter is applied
     """
     # Convert kernel to radius as required by ndimage.gaussian_filter
     radius = kernel_size // 2
@@ -82,19 +41,20 @@ def apply_gaussian_filter(img, sigma, kernel_size):
 def apply_median_filter(img, kernel_size):
     """
     This function applies a median filter to a data array and was designed
-    with the intent of filtering image arrays. The resulting median-filtered image is displayed.
+    with the intent of filtering image arrays. The resulting median-filtered image is returned.
 
     Parameters
     ------------
     img: 2D numpy array
-        Array which the Gaussian filter will be applied to (the image array
-        with noise applied).
+        Array which the median filter will be applied to.
+
     kernel_size: integer
         Desired kernel/mask size for the Gaussian filter.       
     
     Output
     ------------
-    N/A - All computations done within function
+    filtered_img : 2D numpy array
+        Image array after median filter is applied
     """
     # Apply median filter
     filtered_img = ndimage.median_filter(img, (kernel_size, kernel_size))
@@ -106,11 +66,45 @@ def apply_median_filter(img, kernel_size):
     return filtered_img
 
 def canny_edge(img, sigma=3):
+    """
+    This function performs Canny edge detection on the input image and returns the
+    Canny edge map.
+
+    Parameters
+    ------------
+    img: 2D numpy array
+        Image which the Canny edge detector will be applied to.
+
+    sigma: integer
+        Sigma (standard deviation) for the Gaussian distribution used for filtering. This is part of
+        the Canny edge detection process.        
+    
+    Output
+    ------------
+    edge_canny : 2D numpy array (uint8)
+        Canny edge map of input image
+    """
+    # Use skimage functionality to perform Canny edge detection
     edge_canny = feature.canny(img.astype('float32'), sigma=sigma) # this outputs a boolean array
     edge_canny = edge_canny.astype(np.uint8) * 255 # convert to uint8
     return edge_canny
 
 def histogram_equalization(img):
+    """
+    This function performs histogram equalization on the input image and returns the
+    resulting image
+
+    Parameters
+    ------------
+    img: 2D numpy array
+        Image which histogram equalization will be applied to.
+    
+    Output
+    ------------
+    hist_eq : 2D numpy array (uint8)
+        Image array after histogram equalization
+    """
+    # Use skimage functionality to perform histogram equalization
     hist_eq = exposure.equalize_hist(img)
-    hist_eq = img_as_ubyte(hist_eq)
+    hist_eq = img_as_ubyte(hist_eq) # convert to uint8
     return hist_eq
