@@ -40,6 +40,13 @@ def pipeline(img):
     # Pipeline run 8
     #img = histogram_equalization(img)
     # Pipeline run 9
-    segmented_img = segment_image(img, patch_size, offsets, angles, properties, clf)
+    #img = apply_median_filter(img, kernel_size=3)
+    #img = histogram_equalization(img)
+    # Pipeline run 10
+    img = apply_gaussian_filter(img, sigma=2, kernel_size=3)
+    img = histogram_equalization(img)
 
-    return img, segmented_img
+    #Pipeline run x
+    #segmented_img = segment_image(img, patch_size, offsets, angles, properties, clf)
+
+    return img
