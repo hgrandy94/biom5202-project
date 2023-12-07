@@ -4,9 +4,39 @@
 
 ##### Example: Running Image Processing, Model Training, and Evaluation
 
+The two steps below were run locally on a computer with only CPU resources.
 
+1. Update the pipeline function in pipeline.py to include only the desired image processing steps. For example, if you wished to run a pipeline iteration to test the performance of a median filter with kernel=3, uncomment the line:
+img = apply_median_filter(img, kernel_size=3)
+Multiple image processing steps can be added within this function, if desired. This script imports functions from the preprocessing_functions.py script.
+
+2. Execute the data_loading.py script. This will ensure every image slice runs through the image processing pipeline and is stored in an output directory with the exact same file structure as the original MRNet dataset. Note that this script also returns the total image processing time (one of our evaluation metrics).
+
+3. Manually copy the output directory with the processed images to the GPU server. Both were Windows machines so the files were simply copy and pasted using the file explorer.
+
+The following steps were executed on a GPU server.
+
+4. Run the Triple MRNet train.py script. The data directory where the newly processed images are saved must be passed as input. An output folder to store the models and model parameters must also be specified. The best model will appear as the first item in the output folder, and the performance metrics are printed to the output at the end of each epoch.
+
+Example command:
+
+python .\src\train.py --datadir "C:\MRNet-v1.0" --rundir "output_file_path" --task "acl" --gpu
+
+*Note that the datadir and rundir parameters were modified as required for each pipeline iteration. Specifically, the datadir indicated where the processed images were saved and the rundir was updated for each iteration so as to not overwrite model files. The GPU argument at the end of the command ensures the train.py script knows to leverage the available GPU compute.
+
+5. Identify the best epoch and the resulting model, and run the Triple MRNet evaluate.py script. The data directory where the processed images are saved and the path to the model must be passed as input. The train.py script saved the best performing model in terms of AUC as the first item in the output directory (rundir above) so it was straightforward to determine. The results were also printed to the terminal output and could be verified by reviewing the outputs after each epoch.
+
+Example command:
+
+python .\src\evaluate.py --datadir "input_data_directory" --model_path "path_to_best_model" --split "valid" --diagnosis acl --gpu
+
+*Note that the datadir and model_path parameters were modified as required for each pipeline iteration. The datadir was updated to specify the location of the processed images (same directory as in step 4) and the model_path was updated to be the best performing model in terms of AUC, as determined in step 4. The split argument ensures the validation data is used for evaluation. The diagnosis parameter allowed us to focus only on the ACL classification (as the original Triple MRNet also supports abnormal and meniscus injury classifications). The GPU argument at the end of the command ensures the train.py script knows to leverage the available GPU compute.
+
+In addition to printing the evaluation results to the terminal output, this script saved the results to a csv. Evaluation results csvs were combined into a single csv to facilitate comparison between each image processing pipeline run. 
 
 ##### Example: Running Image Segmentation, Model Training, and Evaluation
+
+1. Create positive and negative labels for the images using the label.py script, described below. That is, manually label a random set of knee MRI slices to create positive labels, i.e. clicking on
 
 ##### Image Processing Scripts
 
