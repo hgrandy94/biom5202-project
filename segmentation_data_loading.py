@@ -9,6 +9,21 @@ import time
 from multiprocessing import Pool
 
 def process_file(input):
+    """
+    This function ensures only sagittal view images are passed to the image processing
+    pipeline for segmentation. The resulting images are added to a numpy array in the format
+    required for model training.
+
+    Inputs
+    -------
+    input : tuple
+        Contains the absolute file path of the input files and the output path
+        where the processed images will be stored.
+    
+    Outputs
+    --------
+    Nothing is returned, but the processed images are saved in the specified output directory.
+    """
     abs_file, output_file_path = input
     if "sagittal" in abs_file:
         # If the file is in .npy format, load the data and process each slice
@@ -32,7 +47,6 @@ def process_file(input):
     else:
         # If image is not sagittal, just copy it
         shutil.copy(abs_file, output_file_path)
-
 
 
 if __name__=="__main__":

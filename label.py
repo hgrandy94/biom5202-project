@@ -8,6 +8,22 @@ import numpy as np
 
 
 def display_images(directory, scale_multiplier):
+    """
+    This function displays images from a specified directory 
+
+    Inputs
+    ------
+    directory : string
+        File path to the directory where images are stored
+    
+    scale_multiplier : int
+        Defines the size of the display window. A larger integer 
+        results in a larger display window.
+
+    Outputs
+    --------
+    Displays images in a pop-up window.
+    """
     image_files = []
     for root, dirs, files in os.walk(directory):
         for file in files:
@@ -187,10 +203,13 @@ if __name__ == "__main__":
         print("Usage: python label.py <directory> [<scale_multiplier>]")
         sys.exit(1)
 
+    # Get the directory path
     directory = sys.argv[1]
 
+    # Default scale multiplier 
     scale_multiplier = 1
     if len(sys.argv) == 3:
         scale_multiplier = int(sys.argv[2])
 
+    # Call the display_images function
     display_images(directory, scale_multiplier)
