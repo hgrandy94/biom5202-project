@@ -34,9 +34,24 @@ python .\src\evaluate.py --datadir "input_data_directory" --model_path "path_to_
 
 In addition to printing the evaluation results to the terminal output, this script saved the results to a csv. Evaluation results csvs were combined into a single csv to facilitate comparison between each image processing pipeline run. 
 
-##### Example: Running Image Segmentation, Model Training, and Evaluation
+##### Example: Running Textural Image Segmentation, Model Training, and Evaluation
 
-1. Create positive and negative labels for the images using the label.py script, described below. That is, manually label a random set of knee MRI slices to create positive labels, i.e. clicking on
+*IMPORTANT NOTE* The steps below were only applied to sagittal images since the ACL region cannot be as easily identified in the coronal view, and is not visible in the axial view.
+
+1. Create positive and negative labels for the images using the label.py script, described below. That is, manually label a random set of knee MRI slices to create positive labels, i.e. use the label.py script to select points that represent the ACL region (positive labels) and storing these values in a JSON file. Then, use the label.py script again to select points that do NOT represent the ACL region (negative labels) and store these values in another JSON file.
+
+2. Run the prepare_patches.py script. In this script, the labels are first combined into a list. The labeled points list is then used to extract the associated "patches" from the images so that this information can be passed into a Support Vector Machine (SVM) classifier. The image patches and the associated labels for each (ACL region / non-ACL region) are saved to an output folder for use in the next step.
+
+3. Run the segmentation_train.py script. Here, Gray-Level Co-occurrence Matrix (GLCM) textural descriptors are computed using skimage functionality. The GLCM features are extracted from the image patches generated in step 2. At this point, we now have textural descriptors for image patches containing and ACL region as well as image patches not containing an ACL region. Thus, we have constructed a dataset with the textural descriptor values and the associated label, which can be passed into an SVM classifier for model creation. The SVM classifier is trained and validated using sklearn capabilities. The output of this step is an SVM model that can finally be used to perform image segmentation.
+
+4. Ensure the segment.py script is updated to load the preferred SVM model. This script accepts image slices, breaks them into chunks of size 16 (described in more detail in our report, but this was to improve computation time), and calculates the GLCM features. Once these features are obtained, they are passed to the SVM model trained in step 3, and the resulting image segmentation mask is obtained.
+
+5. Update the pipeline.py script to call the segment_image function from the segment.py script. This will ensure each sagittal image slice is segmented. Following a Triple MRNet-like approach, all image slices went through the pipeline, even if the ACL was not visible as we did not have a method to automatically identify the "optimal" image slices. We theorized that this approach was acceptable, as the segmentation mask should show nothing for non-useful image slices, and the CNN would be able to understand this information.
+
+6. Run the segmentation_data_loading.py script which is a modified version of the data_loading.py script. The key difference being that only sagittal images are passed to the pipeline function, while the axial and coronal images are simply copied to the output folder. Additionally, the structure of the sagittal images was modified such that the numpy array contained three channels - two duplicating the sagittal images, and the third being the segmentation masks.
+
+7. Follow steps 3-6 from the image processing example above. Note that the Triple MRNet load.py script was modified for the segmentation pipeline to ensure the sagittal image slices are inputted as the three channel numpy array with the third channel being the segmentation mask, as described in step 6.
+
 
 ##### Image Processing Scripts
 
