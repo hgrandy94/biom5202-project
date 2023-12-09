@@ -96,6 +96,10 @@ In addition to printing the evaluation results to the terminal output, this scri
 
 - segment.py: This script contains a single function to segment an image using the GLCM features and an SVM classifier. First, the image has to be split into chunks - as described in the project report, this was required to reduce computation time. Then the calculate_gray_level_comatrix_stats function is used to compute the GLCM textural descriptors for the image chunks. These textural descriptors are passed as input features into the trained SVM model. Using the model, the segmentation mask is obtained. 
 
+file_restructuring.py: This script organizes the files in the form they need to be in to be used for training for the resnet50 model that was unsuccesful
+
+
+
 ###### Assets
 
 - models: This folder contains the SVM model generated as part of the texture segmentation with GLCM process. It is the model used to perform the segmentation step. If the script were to be re-ran, additional models would appear in this folder.
