@@ -2,6 +2,8 @@
 ### Classifying Knee Injuries
 #### By: Phil Forster & Heather Grandy
 
+#### Step-by-Step Examples
+
 ##### Example: Running Image Processing, Model Training, and Evaluation
 
 The two steps below were run locally on a computer with only CPU resources.
@@ -56,7 +58,7 @@ In addition to printing the evaluation results to the terminal output, this scri
 
 7. Follow steps 3-6 from the image processing example above. Note that the Triple MRNet load.py script was modified for the segmentation pipeline to ensure the sagittal image slices are inputted as the three channel numpy array with the third channel being the segmentation mask, as described in step 6.
 
-
+#### Description of Code in this Repository
 ##### Image Processing Scripts
 
 - preprocessing_functions.py: This script contains four image preprocessing steps to be used in our image processing pipeline. When executing the image processing pipeline (data_loading.py), functions within this script are called by the pipeline function.
@@ -100,7 +102,7 @@ In addition to printing the evaluation results to the terminal output, this scri
 
 - segment.py: This script contains a single function to segment an image using the GLCM features and an SVM classifier. First, the image has to be split into chunks - as described in the project report, this was required to reduce computation time. Then the calculate_gray_level_comatrix_stats function is used to compute the GLCM textural descriptors for the image chunks. These textural descriptors are passed as input features into the trained SVM model. Using the model, the segmentation mask is obtained. 
 
-file_restructuring.py: This script organizes the files in the form they need to be in to be used for training for the resnet50 model that was unsuccesful
+- file_restructuring.py: This script organizes the files in the form they need to be in to be used for training for the resnet50 model that was unsuccesful
 
 
 
