@@ -153,3 +153,9 @@ In addition to printing the evaluation results to the terminal output, this scri
 [4] 	scikit-image team, "GLCM Texture Features," [Online]. Available: https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_glcm.html. [Accessed 30 11 2023].
 
 [5] 	scikit-learn developers, "1.4 Support Vector Machines," [Online]. Available: https://scikit-learn.org/stable/modules/svm.html. [Accessed 30 11 2023].
+
+[6] scikit-image development team, "Image processing in Python," [Online]. Available: https://scikit-image.org/. [Accessed 29 11 2023].
+
+[7] 	J. Hunter, D. Dale, E. Firing and M. Droettboom, "matplotlib.pyplot.imshow," Matplotlib development team, [Online]. Available: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html. [Accessed 28 11 2023].
+
+[8] J. Hunter, D. Dale, E. Firing and M. Droettboom, "matplotlib.pyplot.subplots," Matplotlib development team, [Online]. Available: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html. [Accessed 28 11 2023].
