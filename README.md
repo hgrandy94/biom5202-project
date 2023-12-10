@@ -20,7 +20,9 @@ The following steps were executed on a GPU server.
 
 Example command:
 
+```
 python .\src\train.py --datadir "C:\MRNet-v1.0" --rundir "output_file_path" --task "acl" --gpu
+```
 
 *Note that the datadir and rundir parameters were modified as required for each pipeline iteration. Specifically, the datadir indicated where the processed images were saved and the rundir was updated for each iteration so as to not overwrite model files. The GPU argument at the end of the command ensures the train.py script knows to leverage the available GPU compute.
 
@@ -28,7 +30,9 @@ python .\src\train.py --datadir "C:\MRNet-v1.0" --rundir "output_file_path" --ta
 
 Example command:
 
+```
 python .\src\evaluate.py --datadir "input_data_directory" --model_path "path_to_best_model" --split "valid" --diagnosis acl --gpu
+```
 
 *Note that the datadir and model_path parameters were modified as required for each pipeline iteration. The datadir was updated to specify the location of the processed images (same directory as in step 4) and the model_path was updated to be the best performing model in terms of AUC, as determined in step 4. The split argument ensures the validation data is used for evaluation. The diagnosis parameter allowed us to focus only on the ACL classification (as the original Triple MRNet also supports abnormal and meniscus injury classifications). The GPU argument at the end of the command ensures the train.py script knows to leverage the available GPU compute.
 
