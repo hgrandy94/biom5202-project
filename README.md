@@ -100,10 +100,15 @@ In addition to printing the evaluation results to the terminal output, this scri
 
     generate_features: This function takes in a dataset (defined by df and folder) and produces the GLCM features and labels.
 
+
+
 - segment.py: This script contains a single function to segment an image using the GLCM features and an SVM classifier. First, the image has to be split into chunks - as described in the project report, this was required to reduce computation time. Then the calculate_gray_level_comatrix_stats function is used to compute the GLCM textural descriptors for the image chunks. These textural descriptors are passed as input features into the trained SVM model. Using the model, the segmentation mask is obtained. 
 
-- file_restructuring.py: This script organizes the files in the form they need to be in to be used for training for the resnet50 model that was unsuccesful
+- file_restructuring.py: This script organizes the files in the form they need to be in to be used for training and applies an image processing technique from image_pro_functions.py if desired.
 
+- image_pro_functions.py: This script includes a number of of image processing techniques to be used by file_restructuring
+
+- png_to_npy.py: This script takes a set of MRI images and combines all slices from one MRI into a single npy array. This is done because the multi level otsu based segmentation needed to be performed in matlab and matlab could not work with/npy images.
 
 
 ###### Assets
