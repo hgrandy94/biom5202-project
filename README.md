@@ -159,3 +159,5 @@ In addition to printing the evaluation results to the terminal output, this scri
 [7] 	J. Hunter, D. Dale, E. Firing and M. Droettboom, "matplotlib.pyplot.imshow," Matplotlib development team, [Online]. Available: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html. [Accessed 28 11 2023].
 
 [8] J. Hunter, D. Dale, E. Firing and M. Droettboom, "matplotlib.pyplot.subplots," Matplotlib development team, [Online]. Available: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html. [Accessed 28 11 2023].
+
+[9] The Linux Foundation, "PyTorch," [Online]. Available: https://pytorch.org/. [Accessed 29 11 2023].
