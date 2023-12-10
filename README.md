@@ -147,3 +147,9 @@ In addition to printing the evaluation results to the terminal output, this scri
 [1] OpenAI, "ChatGPT 3.5," [Online]. Available: https://chat.openai.com/.
 
 [2] Y. S. Bhalgat, "MRNet-Competition," GitHub, Inc., 13 06 2019. [Online]. Available: https://github.com/yashbhalgat/MRNet-Competition.
+
+[3] NumPy Developers, "numpy.lib.format," [Online]. Available: https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html. [Accessed 15 10 2023].
+
+[4] 	scikit-image team, "GLCM Texture Features," [Online]. Available: https://scikit-image.org/docs/stable/auto_examples/features_detection/plot_glcm.html. [Accessed 30 11 2023].
+
+[5] 	scikit-learn developers, "1.4 Support Vector Machines," [Online]. Available: https://scikit-learn.org/stable/modules/svm.html. [Accessed 30 11 2023].
