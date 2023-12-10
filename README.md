@@ -2,6 +2,8 @@
 ### Classifying Knee Injuries
 #### By: Phil Forster & Heather Grandy
 
+This GitHub repository contains the code and additional assets generated to meet requirements for BIOM 5202 at Carleton University in the Fall 2023 semester. Our project aimed to answer the question: Do image processing techniques improve ACL injury classification? We used the Stanford University MRNet dataset and Yash Bhalgat's Triple MRNet solution for our project: https://github.com/yashbhalgat/MRNet-Competition/tree/master.
+
 #### Step-by-Step Examples
 
 ##### Example: Running Image Processing, Model Training, and Evaluation
@@ -58,7 +60,7 @@ In addition to printing the evaluation results to the terminal output, this scri
 
 7. Follow steps 3-6 from the image processing example above. Note that the Triple MRNet load.py script was modified for the segmentation pipeline to ensure the sagittal image slices are inputted as the three channel numpy array with the third channel being the segmentation mask, as described in step 6.
 
-#### Description of Code in this Repository
+#### Description of Contents in this Repository
 ##### Image Processing Scripts
 
 - preprocessing_functions.py: This script contains four image preprocessing steps to be used in our image processing pipeline. When executing the image processing pipeline (data_loading.py), functions within this script are called by the pipeline function.
@@ -117,7 +119,7 @@ In addition to printing the evaluation results to the terminal output, this scri
 
 - output_annotations: This folder contains the json files with the labels generated using label.py. annotations_20231126_195639.json contains the labels for the ACL region whereas negative1.json and negative2.json contain the labels for the non-ACL regions. 
 
-- segmentation_data
+- segmentation_data: The image patch information resulting from the prepare_patches.py script.
 
 ##### Triple MRNet Scripts
 
@@ -142,3 +144,6 @@ In addition to printing the evaluation results to the terminal output, this scri
 - test.ipynb: This notebook was used to test image processing functionality before processing all images in the MRNet dataset. This can be considered our "experimentation" place.
 
 ##### REFERENCES
+[1] OpenAI, "ChatGPT 3.5," [Online]. Available: https://chat.openai.com/.
+
+[2] Y. S. Bhalgat, "MRNet-Competition," GitHub, Inc., 13 06 2019. [Online]. Available: https://github.com/yashbhalgat/MRNet-Competition.
